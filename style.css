@@ -1,0 +1,40 @@
+button{
+    border: 10px green;
+    border-radius: 5%;
+    padding: 10px;
+    background-color: rgb(21, 189, 21);
+    color: white;
+    cursor: pointer;
+}
+
+.dash{
+    margin-left: 45%;
+    margin-right: 620px;
+    background-color:yellow ;
+}
+.logout{
+    background-color: red;
+    border-radius: 5%;
+}
+button:hover {
+    background-color: #45a049; 
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.logout:hover{
+    background-color:rgb(245, 72, 72); 
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    margin-left: 50px;
+}
+.ll{
+    margin-left: 35px;
+}
